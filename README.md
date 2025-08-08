@@ -12,7 +12,7 @@ Instructions for installation, running the server, and running tests are include
 
 ### Challenges
 The most significant challenge revolved around the conditional checks that required additional historical user data.
-In a real world scenario, this would most likely be resolved with retrival of data through: 
+In a real world scenario, this would most likely be resolved with retrieval of data through: 
 - API calls to a service managing the database connection
 - direct connection to a database 
 - through a message queue e.g. Kafka
