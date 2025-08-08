@@ -28,7 +28,7 @@ logic with a product owner / stakeholder.
 ### Future improvements
 
 - Enable logging to be used in internal service modules. e.g. `user_service.py` and `user_database.py`
-- Add data validation for the historical user data retrival
+- Add data validation for the historical user data retrieval. Similar to the validation already implemented using pydantic on the JSON body data
 - Containerise the application (e.g., Docker) for easier deployment.
 
 ### Additional test to consider
