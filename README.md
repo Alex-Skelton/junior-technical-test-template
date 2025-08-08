@@ -13,13 +13,13 @@ Instructions for installation, running the server, and running tests are include
 ### Challenges
 The most significant challenge revolved around the conditional checks that required additional historical user data.
 In a real world scenario, this would most likely be resolved with retrival of data through: 
-    - API calls to a service managing the database connection
-    - direct connection to a database 
-    - through a message queue e.g. Kafka
+- API calls to a service managing the database connection
+- direct connection to a database 
+- through a message queue e.g. Kafka
 
 To simulate the data retrival, the current implementation mocks historical user data.
-    - during runtime: fake user data is randomly generated.
-    - during tests: historical data is predefined and injected via mocks.
+- during runtime: fake user data is randomly generated.
+- during tests: historical data is predefined and injected via mocks.
 
 ### Assumptions
 Some assumptions were made regarding how conditional checks should behave. In a real work scenario I would typically verify this
