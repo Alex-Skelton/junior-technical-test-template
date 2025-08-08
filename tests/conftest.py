@@ -4,8 +4,7 @@ import pytest
 from flask.testing import FlaskClient
 from flask import Flask
 
-from user_monitoring.app import create_app
-
+from app import create_app
 
 @pytest.fixture
 def app() -> Generator[Flask, None, None]:

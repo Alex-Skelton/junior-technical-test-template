@@ -4,9 +4,6 @@ import random
 def request_historical_user_data(user_id, time, records):
     # Setup fake function that requests data from database service
     # Realistically this could be an API request to another service, a database on the same server or a data stream like kafka
-    # This could look something like this..
-    #data = database.get(user_id, records)
-
     data = generate_random_transactions(
         user_id=user_id,
         time=time,
